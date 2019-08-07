@@ -29,12 +29,15 @@
 ### Add minizinc to your path
 
 `$ nano ~/.bashrc`
+
 Add this `PATH=$PATH:/yourpath/MiniZincIDE-2.3.0-bundle-linux/bin` to the bashrc file
+
 `$ source ~/.bashrc`
 
 ##### or
 
 `$ echo "PATH=$PATH:/yourpath/MiniZincIDE-2.3.0-bundle-linux/bin" >> ~/.bashrc`
+
 `$ source ~/.bashrc`
 
 # Run
