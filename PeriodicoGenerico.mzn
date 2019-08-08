@@ -10,6 +10,7 @@ array[1..n] of var int: np_tema; %núm.páginas del tema i
 
 %Restricciones:
 constraint sum(j in 1..n)(np_tema[j]* elegido[j]) <= NP;
+constraint forall(i in 1..n)(num_paginas[i,1] <= num_paginas[i,2]);
 constraint forall(i in 1..n)(num_paginas[i,1] <= np_tema[i] /\ np_tema[i] <= num_paginas[i,2]);
 
 %Objetivo
